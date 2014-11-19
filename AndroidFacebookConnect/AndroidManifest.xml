@@ -11,13 +11,14 @@
         android:label="@string/app_name" >
         <activity
             android:label="@string/app_name"
-            android:name=".AndroidFacebookConnectActivity" >
+            android:name="org.acacha.facebook.androidhive.AndroidFacebookConnectActivity" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:value="@string/facebook_app_id" android:name="com.facebook.sdk.ApplicationId"/>
     </application>
     
     <!-- Connect to Internet Permissions -->

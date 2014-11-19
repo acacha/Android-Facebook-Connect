@@ -1,4 +1,4 @@
-package com.facebook.androidhive;
+package org.acacha.facebook.androidhive;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -22,12 +22,13 @@ import com.facebook.android.AsyncFacebookRunner.RequestListener;
 import com.facebook.android.DialogError;
 import com.facebook.android.Facebook;
 import com.facebook.android.Facebook.DialogListener;
+import com.facebook.androidhive.R;
 import com.facebook.android.FacebookError;
 
 public class AndroidFacebookConnectActivity extends Activity {
 
 	// Your Facebook APP ID
-	private static String APP_ID = "308180782571605"; // Replace with your App ID
+	private static String APP_ID = "1404061233149706"; // Replace with your App ID
 
 	// Instance of Facebook Class
 	private Facebook facebook = new Facebook(APP_ID);
